@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: pink;
+	font-family: 'Poppins', sans-serif;
+}
+h1 {
+	text-align: center;
+	margin: 30px;
+}
+button {
+	max-width: 100%;
+	font-family: "Noto Sans JP";
+	text-align: center;
+	color: #fff;
+	background-color: #540833;
+	border: 2px solid #540833;
+	border-radius: 4px;
+	transition: color .3s, background-color .3s;
+	cursor: pointer;
+}
+button:hover, button:active {
+  	color: #24272e;
+  	background-color: #fff;
+}
+ul > li {
+	list-style: none;
+}
+.add-column-btn {
+	display: flex;
+	justify-content: center;
+}
+.add-card-btn {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+.add-card {
+	font-family: 'Poppins', sans-serif;
+	padding: 5px;
+}
+.btn-delete {
+	font-family: 'Poppins', sans-serif;
+	width: 20px;
+	height: 20px;
+}
+.create-column {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	padding: 5px 15px;
+}
+.column-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.column-card-list {
+	min-height: 70px;
+	max-height: 100%;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+	margin: 30px;
+	background-color: white;
+	border: 2px solid #540833;
+	border-radius: 4px;
+	height: 70vh;
+	width: 25vw;
+}
+.column-header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 15px;
+	border-bottom: 1px solid #540833
+}
+.card-header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 10px;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	background-color: white;
+	border: 2px solid #540833;
+	border-radius: 4px;
+	}
