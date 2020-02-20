@@ -10,7 +10,6 @@ var board = {
 	element: document.querySelector('#board .column-container')
 };
 
-
 // Add new column button
 
 document.querySelector('#board .create-column').addEventListener('click', function() {

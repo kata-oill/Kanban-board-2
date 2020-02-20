@@ -1,8 +1,7 @@
 'use strict';
 
 // variables to comunicate with server
-
-var baseUrl = 'https://kodilla.com/pl/bootcamp-api';
+var baseUrl = 'https://cors-anywhere.herokuapp.com/https://kodilla.com/pl/bootcamp-api';
 
 var myHeaders = {
   'X-Client-Id': '4291',
@@ -39,7 +38,7 @@ function setupColumns(columns) {
     board.addColumn(col);
     setupCards(col, column.cards);
   });
-  createCard();
+  //createCard();
 }
 
 // creating cards

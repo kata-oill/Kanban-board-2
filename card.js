@@ -1,5 +1,5 @@
 'use strict';
-	// Card class
+// Card class
 
 function Card(id, name) {
 	var self = this;
